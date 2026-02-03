@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Timer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main class="timer-app">
+    <section class="timer-card">
+
+      <header class="timer-display">
+        <input class="time-input" type="text" + maxlength="2" + inputmode="numeric" value="00" data-timer="hor">
+        <span class="time-separator">:</span>
+        <input class="time-input" type="text" + maxlength="2" + inputmode="numeric" value="00" data-timer="min">
+        <span class="time-separator">:</span>
+        <input class="time-input" type="text" + maxlength="2" + inputmode="numeric" value="00" data-timer="sec">
+      </header>
+
+      <div class="timer-controls">
+        <button class="btn" data-action="start">Iniciar</button>
+        <button class="btn" data-action="pause">Pausar</button>
+        <button class="btn" data-action="reset">Resetar</button>
+      </div>
+
+    </section>
+  </main>
+
+  <script type="module" src="scritp.js"></script>
+</body>
+
+</html>
